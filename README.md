@@ -1,4 +1,4 @@
-# Gerador de senha forte
+# Gerador de Senha Forte
 
 Este é um simples script em Python que gera senhas fortes com base nas opções fornecidas pelo usuário. Ele permite a inclusão de dígitos, letras maiúsculas e caracteres especiais na senha gerada.
 
@@ -18,8 +18,8 @@ Este é um simples script em Python que gera senhas fortes com base nas opções
 Clone o repositório e navegue até o diretório do projeto:
 
     ```
-    git clone https://github.com/luizelias8/cli-gerador-senha-forte.git
-    cd cli-gerador-senha-forte
+    git clone https://github.com/luizelias8/cli-gerar-senha-forte.git
+    cd cli-gerar-senha-forte
     ```
 
 ## Executando o Script
@@ -36,17 +36,17 @@ Você pode executar o script diretamente a partir do terminal com diferentes op�
 
 1. Gerar uma senha de 16 caracteres incluindo dígitos e letras maiúsculas:
     ```
-    python cli_gerador_senha_forte.py -l 16 -d -u
+    python cli_gerar_senha_forte.py -l 16 -d -u
     ```
 
 2. Gerar uma senha padrão de 12 caracteres incluindo todos os tipos de caracteres:
     ```
-    python cli_gerador_senha_forte.py -d -u -s
+    python cli_gerar_senha_forte.py -d -u -s
     ```
 
 3. Gerar uma senha de 8 caracteres sem caracteres especiais:
     ```
-    python cli_gerador_senha_forte.py -l 8 -d -u
+    python cli_gerar_senha_forte.py -l 8 -d -u
     ```
 
 ## Detalhes do Código
